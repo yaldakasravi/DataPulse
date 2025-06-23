@@ -1,0 +1,16 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor = "#4CAF50"       # A fresh green for buttons and highlights
+backgroundColor = "#F0F2F6"    # Light gray background for a clean look
+secondaryBackgroundColor = "#FFFFFF"  # White for main content panels
+textColor = "#262730"          # Dark gray for readable text
+font = "sans serif"            # Modern, clean font
+
+[server]
+headless = true                # Required for deployment environments
+enableCORS = false             # Allow cross-origin requests (adjust as needed)
+port = 8501                   # Default Streamlit port; change if needed
+
+[layout]
+wideMode = true                # Use the full width of the screen for better layout
