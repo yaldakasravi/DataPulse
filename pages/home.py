@@ -3,7 +3,7 @@ import streamlit as st
 # ----------------------------
 # Page Title
 # ----------------------------
-st.title("🏠 Home - Welcome to DataPulse")
+st.title("Home - Welcome to DataPulse")
 
 # ----------------------------
 # App Introduction
@@ -12,10 +12,10 @@ st.markdown("""
 Welcome to **DataPulse** — your all-in-one **Automated Machine Learning** and **Exploratory Data Analysis** dashboard.
 
 This application allows you to:
-- 🔍 Automatically visualize your dataset using **AutoViz**
-- ⚙️ Train machine learning models using **PyCaret**
-- 📈 Understand your models with **SHAP** and **LIME**
-- 🧪 Track model versions and metrics with **MLflow**
+- Automatically visualize your dataset using **AutoViz**
+- Train machine learning models using **PyCaret**
+- Understand your models with **SHAP** and **LIME**
+- Track model versions and metrics with **MLflow**
 
 ---
 """)
@@ -23,14 +23,14 @@ This application allows you to:
 # ----------------------------
 # Step-by-Step Instructions
 # ----------------------------
-st.header("📌 How to Use This App")
+st.header(" How to Use This App")
 
 st.markdown("""
 1. **Upload your dataset (CSV)** on the main screen.
 2. Navigate to:
-   - 🧪 **EDA** tab to view visualizations and statistics
-   - 🤖 **AutoML** tab to train classification or regression models
-   - 📈 **Explainability** tab to interpret your model
+   -  **EDA** tab to view visualizations and statistics
+   -  **AutoML** tab to train classification or regression models
+   -  **Explainability** tab to interpret your model
 3. Download reports or export trained models (optional).
 4. Check experiment logs using MLflow (if configured).
 
@@ -42,12 +42,12 @@ st.markdown("""
 # ----------------------------
 # Tips or Notes
 # ----------------------------
-st.info("🚀 Tip: Start by uploading your CSV file on the **main page** (app homepage).")
+st.info(" Tip: Start by uploading your CSV file on the **main page** (app homepage).")
 
 # ----------------------------
 # Optional Sidebar Navigation Message
 # ----------------------------
-st.sidebar.title("📂 Navigation")
+st.sidebar.title(" Navigation")
 st.sidebar.info("Use the sidebar to switch between EDA, AutoML, and Explainability sections.")
 
 # ----------------------------
@@ -55,6 +55,6 @@ st.sidebar.info("Use the sidebar to switch between EDA, AutoML, and Explainabili
 # ----------------------------
 st.markdown("""
 ---
-Made with ❤️ by Yalda  
+Made by Yalda  
 Powered by `Streamlit`, `AutoViz`, `PyCaret`, `SHAP`, and `LIME`
 """)
